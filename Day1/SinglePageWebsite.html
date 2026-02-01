@@ -1,24 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Single Page Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            BMW Motors
-        </div>
-        <div>
-            <ul>
-                <li><a href="#" class="link">Home</a></li>
-                <li><a href="#" class="link">About</a></li>
-                <li><a href="#" class="link">Review</a></li>
-                <li><a href="#" class="link">Contact</a></li>
-            </ul>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                BMW Motors
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#" class="link">Home</a></li>
+                    <li><a href="#" class="link">About</a></li>
+                    <li><a href="#" class="link">Review</a></li>
+                    <li><a href="#" class="link">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
+    <header>
+        <div class="header-content">
+            <h1>Welcome to BMW Motors</h1>
+            <p>Your ultimate driving machine</p>
+        </div>
+    </header>
+    <section class="about">
+        <h2>About Us</h2>
+        <p>BMW Motors is a leading manufacturer of luxury vehicles, known for their performance, design, and innovation.
+            Our mission is to provide the best driving experience for our customers worldwide.</p>
+    </section>
+    <section class="review-section">
+        <h2 class="review-title">Customer Reviews</h2>
+        <div class="review-cards">
+            <div class="review-card">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Doe" class="reviewer-img">
+                <h3>John Doe</h3>
+                <p>Great service! Really satisfied with the product quality.</p>
+            </div>
+            <div class="review-card">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Jane Smith" class="reviewer-img">
+                <h3>Jane Smith</h3>
+                <p>Amazing experience! The team was professional and responsive.</p>
+            </div>
+            <div class="review-card">
+                <img src="https://randomuser.me/api/portraits/men/56.jpg" alt="Michael Lee" class="reviewer-img">
+                <h3>Michael Lee</h3>
+                <p>Highly recommend! The product exceeded my expectations.</p>
+            </div>
+            <div class="review-card">
+                <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sarah Brown" class="reviewer-img">
+                <h3>Sarah Brown</h3>
+                <p>Very happy with my purchase! Excellent support and fast shipping.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-us">
+        <h2>Contact Us</h2>
+        <div class="contact">
+            <div class="contact-info">
+                <div class="container">
+                    <div class="card">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h3>Corporate Office</h3>
+                        <p>1234 BMW St, Munich, Germany</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h3>Corporate Office</h3>
+                        <p>1234 BMW St, Munich, Germany</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="card">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h3>Corporate Office</h3>
+                        <p>1234 BMW St, Munich, Germany</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h3>Corporate Office</h3>
+                        <p>1234 BMW St, Munich, Germany</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form">
+                <h2>Message Us</h2>
+                <form action="#">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 BMW Motors. All rights reserved.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/2b4a5952d6.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
